@@ -1,0 +1,45 @@
+.customNavbar {
+    width: 100%;
+    background-color: #2c3e50;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.customNavbar .navbar-collapse {
+    text-align: right;
+}
+
+.customNavbar .navbar-nav {
+    margin-right: auto;
+}
+
+.customNavbar .nav-link {
+    color: white !important;
+    padding: 0 10px;
+}
+
+.customNavbar .navbar-toggler-icon {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .customNavbar .navbar-collapse {
+        text-align: left;
+    }
+
+    .customNavbar .nav-link {
+        padding: 5px 10px;
+    }
+}
+
+.customNavbar.hidden {
+  top: -60px;
+}
+
+.customNavbar.visible {
+  top: 0;
+}
