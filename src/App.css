@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html,
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+.homepage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 50px);
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-section h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+.hive-logo {
+  margin-top: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
