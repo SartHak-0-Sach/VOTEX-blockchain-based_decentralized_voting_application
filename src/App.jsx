@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomNavbar from './Navbar';
-import hiveLogo from '/hive-logo.png';
+import image from '/image.png';
 import './App.css';
 
 function App()
@@ -16,7 +16,7 @@ function App()
           </p>
         </div>
         <div className="image-section">
-          <img src={hiveLogo} alt="Hive Logo" className="hive-logo" />
+          <img src={image} alt="Vote using Votex" className="image" />
         </div>
       </div>
     </>
