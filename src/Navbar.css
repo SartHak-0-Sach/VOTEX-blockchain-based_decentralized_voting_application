@@ -7,6 +7,8 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
 }
 
 .customNavbar .navbar-collapse {
@@ -37,9 +39,9 @@
 }
 
 .customNavbar.hidden {
-  top: -60px;
+    top: -60px;
 }
 
 .customNavbar.visible {
-  top: 0;
+    top: 0;
 }
