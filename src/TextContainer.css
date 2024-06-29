@@ -1,0 +1,21 @@
+.text-container {
+    position: relative;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.heading {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.body-text {
+    padding: 20px;
+}
