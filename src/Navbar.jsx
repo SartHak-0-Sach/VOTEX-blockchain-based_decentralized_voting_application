@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import logo from './assets/logo.png';
+import logo-new from './assets/logo-new.png';
 import './Navbar.css';
 
 const CustomNavbar = () =>
@@ -40,7 +40,7 @@ const CustomNavbar = () =>
             <Container>
                 <Navbar.Brand href="#">
                     <img
-                        src={logo}
+                        src={logo-new}
                         height="30"
                         className="d-inline-block align-top logo"
                         alt="Votex logo"
