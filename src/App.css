@@ -20,6 +20,14 @@ html,
   padding-top: 60px;
 }
 
+.containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .text-section {
   flex: 1;
   padding: 20px;
@@ -37,8 +45,10 @@ html,
 
 .image {
   margin-top: 10px;
-  width: 50px;
+  height: 400px;
+  width: 400px;
   height: auto;
+  border-radius: 10px;
 }
 
 .image-section {
@@ -48,8 +58,6 @@ html,
   align-items: center;
 }
 
-.image-section img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.sample{
+  margin: 40px 35%;
 }
