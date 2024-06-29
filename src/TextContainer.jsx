@@ -1,14 +1,12 @@
 import React from 'react';
-import './TextContainer.css'; 
+import './TextContainer.css';
 
-const TextContainer = () =>
+const TextContainer = ({ heading, text }) =>
 {
   return (
     <div className="text-container">
-      <div className="heading">Heading</div>
-      <div className="body-text">
-        This is the body text of the text container.
-      </div>
+      <div className="heading">{heading}</div>
+      <div className="body-text">{text}</div>
     </div>
   );
 }
