@@ -35,10 +35,6 @@ Cost:
 Conducting physical elections is expensive, involving costs for printing ballots, setting up polling stations, and hiring personnel.
 Decentralized voting can reduce the overall costs by minimizing physical resources and manpower.
 
-Trust Issues:
-Lack of transparency in the traditional voting process can lead to mistrust in the election results.
-Decentralized platforms can offer greater transparency and trust through immutable and publicly auditable records.
-
 There is a reason why only 63,41,80,652 votes were registered out of a population of 140 crore people, there has to be a solution to this.
 
 Introducing Votex, a decentralized groundbreaking voting application based on hive blockchain technology which allows users to cast their votes securely and anonymously without any risk of getting hacked, information getting leaked, or tampered physically
